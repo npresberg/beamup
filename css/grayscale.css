@@ -43,7 +43,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #BD4A37;
 }
 
 a:focus, a:hover {
@@ -157,7 +157,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/intro-bg-01.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,12 +220,11 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #D1AB80;
+}
+
+h3.feed-title img { 
+  display: none;
 }
 
 #map {
@@ -324,4 +323,9 @@ img::-moz-selection {
 
 .section-opinion {
   background-color: #CCCCCC;
+}
+
+.atencion {
+    background: url("../img/nosotros.jpg") no-repeat center center scroll;
+
 }
